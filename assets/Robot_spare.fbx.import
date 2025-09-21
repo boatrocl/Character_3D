@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bmw8rwqd2rtso"
-path="res://.godot/imported/Robot.fbx-5bcaabc383dbf3704e2cc575e8caa305.scn"
+path="res://.godot/imported/Robot_spare.fbx-27957e93fdf996f83593a7da096d0f7d.scn"
 
 [deps]
 
-source_file="res://assets/Robot.fbx"
-dest_files=["res://.godot/imported/Robot.fbx-5bcaabc383dbf3704e2cc575e8caa305.scn"]
+source_file="res://assets/Robot_spare.fbx"
+dest_files=["res://.godot/imported/Robot_spare.fbx-27957e93fdf996f83593a7da096d0f7d.scn"]
 
 [params]
 
