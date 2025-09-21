@@ -318,13 +318,6 @@ fov = 22.8952
 near = 0.1
 far = 100.0
 
-[node name="Light" type="OmniLight3D" parent="."]
-transform = Transform3D(-29.0865, -77.1101, 56.6393, -5.5189, 60.4525, 79.4672, -95.5171, 19.9883, -21.8391, 4.07625, 5.90386, -1.57215)
-visible = false
-light_energy = 1000.0
-shadow_enabled = true
-omni_range = 4096.0
-
 [node name="GeneralSkeleton" type="Skeleton3D" parent="."]
 unique_name_in_owner = true
 motion_scale = 2.92533
