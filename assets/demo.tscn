@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3 uid="uid://ba3nbuaalif3e"]
+
+[ext_resource type="Script" uid="uid://bxocygm8uf6uf" path="res://assets/demo.gd" id="1_amuei"]
+[ext_resource type="PackedScene" uid="uid://txlp5vqhbo56" path="res://assets/Blockman_noob.tscn" id="1_s02n5"]
+[ext_resource type="PackedScene" uid="uid://dejt7ovn5rte3" path="res://assets/Robot.tscn" id="3_e6to4"]
+[ext_resource type="PackedScene" uid="uid://58u23m8wtlen" path="res://assets/Tree.fbx" id="4_xfgwy"]
+[ext_resource type="PackedScene" uid="uid://53dmef5neflw" path="res://assets/island.fbx" id="5_137jn"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_amuei")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.9868, 50.2173)
+
+[node name="Blockman_noob" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.5586, -5.84317, -1)
+
+[node name="Blockman_noob3" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.58818, -4.58668, -1)
+
+[node name="Blockman_noob4" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.0217, -4.55808, -1)
+
+[node name="Blockman_noob2" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.79678, -5.65548, -1)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 52, 29)
+
+[node name="Robot" parent="." instance=ExtResource("3_e6to4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.40261, 2.1242, -19.6489)
+
+[node name="Robot2" parent="." instance=ExtResource("3_e6to4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.1439, 4.7345, -19.6489)
+
+[node name="Tree" parent="." instance=ExtResource("4_xfgwy")]
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, -127.701, 0.872192, -173.811)
+
+[node name="Tree2" parent="." instance=ExtResource("4_xfgwy")]
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, -211.058, 0.872192, -345.283)
+
+[node name="Tree3" parent="." instance=ExtResource("4_xfgwy")]
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, 152.983, 0.872192, -337.208)
+
+[node name="island" parent="." instance=ExtResource("5_137jn")]
+transform = Transform3D(-28.6272, 0, 8.97122, 0, 30, 0, -8.97122, 0, -28.6272, 0, -39.4073, -231.015)
